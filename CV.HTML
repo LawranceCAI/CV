@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lawrance CV </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  
+
+.header {
+  padding: 50px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+.fakeimg {
+  background-color: #aaa;
+  text-align: center;
+  width: 100%;
+  padding: 100px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+* {box-sizing: border-box;}
+
+body {
+  font-family: Verdana, sans-serif;
+}                
+
+/*
+    The display property specifies the display behavior (the type of rendering box) of an element.
+*/
+.mySlides {display: none;}                  
+
+img {vertical-align: middle;}
+
+/* 
+ Slideshow container 
+*/
+.slideshow-container {
+  max-width: 500px;
+  position: relative;         
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 11px;
+  padding: 100px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  vertical-align: text-bottom;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 10px;
+  width: 5px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;             
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;  
+  -webkit-animation-direction: alternate;
+  animation-name: fade;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;  
+  animation-direction: alternate;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+/* ========== the navigation bar =============== */
+.topnav {
+  overflow: hidden;
+  background-color: #6e6363;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 7px 20px;
+  text-decoration: none;
+  font-size: 15px;
+}
+.rightSide{
+  float: right;
+  text-align: right;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* ========== the narvigation bar ends =============== */
+
+</style>
+
+<!---------------------------------------------------------Body------------------------------------------------------>
+<body class="w3-light-grey">
+<div class="header">
+    <h1>Lawrance CAI</h1>
+    <h2>Student ID: 18065987D</h2>
+    <p>A <b>responsive</b> website created by myself.</p>
+</div>
+
+<!-- ===============navigation bar============= --> 
+<div class="topnav">
+  <a class="active" href="#Work-Hist" > <i>Work Hist</i></a>
+  <a href="#Ex-Activity"> <i>Ex-Activity</i></a>
+  <a href="#Academic"><i>Academic</i></a>
+  <div class ="rightSide"> <a href="#SocialPlatform" class="rightSide" ><i>Social Platform</i> </a> </div>
+ 
+</div>
+
+
+<!-- =================navigation bar ends =============== --> 
+
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="width: 80% max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+    <!-- Left Column -->
+        <div class="w3-third">
+            <div class="w3-white w3-text-grey w3-card-4">
+                <div class="w3-display-container">
+                    <!-- the smart slide shows -->
+<div class="slideshow-container">
+
+  <!-- use functions: mySlides & fade -->
+<div class="mySlides fade"> 
+<div class="numbertext">1 / 6</div>
+<img src="pictures/CAGAHK.jpg" alt="CAGAHK mentorship program" style="width:100%">
+<figcaption> <small><i>CAGAHK mentorship program</i></small></figcaption>
+</div>
+
+<div class="mySlides fade">
+<div class="numbertext">2 / 6</div>
+<img src="pictures/high_table.jpg" alt ="Business Hight table" style="width:100%">
+<figcaption><small><i>Business High table</i></small> </figcaption>
+</div>
+
+<div class="mySlides fade">
+<div class="numbertext">3 / 6</div>
+<img src="pictures/VNU.jpg" alt="VNU Exhibition Europe Internship in Shanghai, China" style="width:100%">
+<figcaption><small><i>VNU Exhibition Europe Internship in Shanghai</i></small></figcaption>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 6</div>
+  <img src="pictures/Nanjing_Study_Trip.jpg" alt="Entrepreneurial study trip in Nanjing" style="width:100%">
+  <figcaption><small><i>Entrepreneurial study trip in Nanjing</i></small></figcaption>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 6</div>
+  <img src="pictures/FINET.jpg" alt="Finet Limited Internship in Hong Kong" style="width:100%">
+  <figcaption><small><i>Finet Limited Internship in Hong Kong</i></small></figcaption>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 6</div>
+  <img src="pictures/SA.jpg" alt="PolyU student ambassador" style="width:100%">
+  <figcaption><small><i>PolyU student ambassador</i></small></figcaption>
+</div>
+
+
+</div>
+<br>
+          <!-- the following is to show the dots -->
+<div style="text-align:center">
+<span class="dot"></span> 
+<span class="dot"></span> 
+<span class="dot"></span> 
+<span class="dot"></span> 
+<span class="dot"></span> 
+<span class="dot"></span> 
+</div>
+
+
+<!-- the smart slide ends -->
+
+                  <div class="w3-display-bottomleft w3-container w3-text-black">
+                  </div>
+                </div>
+
+        
+            <div class="w3-container">
+            <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Student</p>
+            <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>HK, China</p>
+            <p><address> <i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i> <a href = "mailto:Lawrance.cai@connect.polyu.hk" >lawrance.cai@connect.polyu.hk</a> </address></p>
+            <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>+852 64020804</p>
+            <hr>         
+
+            <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+            <p>Microsoft software</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">80%</div>
+            </div>
+            
+            <p>C++ Programming</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:70%">
+                <div class="w3-center w3-text-white">60%</div>
+                </div>
+            </div>
+            
+            <p>Web crawler</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:70%">60%</div>
+            </div>
+            
+            <p>IBM SPSS Statistics </p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
+            </div>         
+            <p>Bloomberg</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:40%">40%</div>
+            </div> 
+            <p>Python</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:40%">40%</div>
+            </div>    
+            <p>Website Development: HTML</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:40%">40%</div>
+            </div>     
+            <p>Video Editing </p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:70%">70%</div>
+            </div>              
+            <br>
+            <hr>
+            <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+            <p>Cantonese</p>
+            <div class="w3-light-grey w3-round-xlarge">
+              <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+          </div>
+            <p>Mandarin</p>
+            <div class="w3-light-grey w3-round-xlarge">
+                <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+            </div>
+            <p>English </p>
+            <div class="w3-light-grey w3-round-xlarge">
+                <div class="w3-round-xlarge w3-teal" style="height:24px;width:80%"></div>
+            </div>
+            <p>Japanese </p>
+            <div class="w3-light-grey w3-round-xlarge">
+                <div class="w3-round-xlarge w3-teal" style="height:24px;width:25%"></div>
+            </div>
+            <br>
+            </div>
+        </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+        <div class="w3-container w3-card w3-white w3-margin-bottom">
+            <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+            <div class="w3-container">
+              <a href ="https://mm.polyu.edu.hk/study/undergraduate-programmes/bba-hons-in-management-02402-mgtsym/"><h5 class="w3-opacity"><b>Major in BBA (Hons) Management       </b><small><i>The Hong Kong Polytechnic University</i></small></h5></a>
+              <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sep 2018 - Present</h6>
+              <hr>
+              <a href="https://www.comp.polyu.edu.hk/en-us/programmeCategories/detail/1"><h5 class="w3-opacity"><b>Minor in Computing Science       </b><small><i>The Hong Kong Polytechnic University</i></small></h5></a>
+              <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Feb 2020 - Present</h6>
+            </div>
+        </div>
+              <hr>
+    
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 id="Work-Hist" class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Employment History</h2>
+        
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Intern in Website Development , Finet HK </b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2020 - Aug 2020</h6>
+          <details>
+              <summary style="outline:none">Detail: </summary>
+                <ul>
+                    <li><small>Assisting the website development</small></li>
+                    <li><small>Collecting and filtering the real-time data from the website and clients' responses</small></li>
+                </ul>
+            </details>
+        </div>
+
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Project Assistance Intern, Hilti Limited</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jul 2019 - Aug 2019</h6>
+          <details>
+              <summary style="outline:none">Detail:</summary>
+              <ul>
+                <li><small>Analyzed the current work environment and feasibility of transformation by using Bloomberg with Ms. Yan Zhang, the head of Finance. </small></li>
+                <li><small>Implemented the "F.O.C.U.S.E.D." contemplating framework</small></li>
+            </ul>
+          </details>
+        </div>
+
+        <div class="w3-container">
+            <h5 class="w3-opacity"><b>Project assistance Intern, VNU Exhibition Europe </b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2019 - Jul 2019</h6>
+            <details>
+                <summary style="outline:none">Detail: </summary>
+                <ul>
+                  <li><small>Help to design the blueprint of the exhibition place with CAD</small></li>
+                  <li><smallCommunciation to international clients, helping the company to get a larger market share and potential customers></small></li>
+                  <li><small>Arrangement of the contract, including data collecting, coding, adjusting, filtering, filing</small></li>
+                  <li><small>Basic edit to the new website</small></li>
+                </ul>
+            </details>
+            
+        </div>
+      </div>
+    <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 id ="Academic"class="w3-text-grey w3-padding-16"><i class="fa fa-pencil fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Academic Achievement </h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Academic Journal Paper Publication</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Nov, 2020</h6>
+          <a href="https://www.al-kindipublisher.com/index.php/jhsss/article/view/723" style="text-decoration: none;" > <small>CAI, Y., & Zhang, J. (2020). The Motivator to Students’ Entrepreneurship Intention: the
+            Existence of University Incubated Entrepreneurs. <i>Journal of Humanities and Social Sciences
+            Studies, 2(6), 127-138.</i></small></a>
+          <p></p>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Inter-Collegiate Business Competition (ICBC) </b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan, 2021</h6>
+          <p><small><i><bold>Finalists in MIS scheme from over 80 International Business Schools</bold></i></small></p>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Service-Learning Scholarship Scheme 2.0 </b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sep, 2020</h6>
+        </div>
+        <!-- HKSRA reaching out award -->
+        <div class="w3-container">
+            <h5 class="w3-opacity"><b>HKSAR Government Scholarship: Fund-Reaching Out Award 2020-21 </b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun, 2020</h6>
+        </div>
+          <!-- commercial radio  --> 
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Commercial Radio 50th Anniversary Scholarship 2018/2019 </b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jul, 2019</h6>
+          </div>
+          
+          <!-- milagros -->
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>MILAGROS corporation scholarship 2018/2019 </b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Dec, 2018</h6>
+          </div>
+          
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Harvard-style problem-based project placement </b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jul 2019 - Aug 2019</h6>
+            <details>
+                <summary style="outline:none">Detail: </summary>
+                <ul>
+                    <li><small>To faciliate the business model transformation of the host company with equipping the problem-solving framework</small></li>
+                </ul>
+                <ul type = "i">Task: 
+                        <li><small>Conducted research about target studied companies and analyzed the reasons and insights for their success</small></li>
+                        <li><small>Implementing the framework and making up for the deficiency</small></li>
+                </ul>
+                <ul type ="i">Skills 
+                        <li><small>Research and analytics, Bloomberg use, Team playing and presentation skills</small></li>
+                </ul>
+            </details>
+           
+          </div>                        
+    </div>
+    <hr>
+    <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 id ="Ex-Activity"class="w3-text-grey w3-padding-16"><i class="fa fa-bicycle fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Extra-curricular activities </h2>
+        <div class="w3-container">
+            <h5 class="w3-opacity"><b><u>President</u> of Entrepreneurship Society, Institute for Entrepreneurship,
+              PolyU </b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sep 2020 to <span class="w3-tag w3-teal w3-round">Present</span> </h6>
+            <details>
+              <summary style="outline:none">Detail: </summary>
+                <ul>
+                    <li><small>Cultivating the entrepreneurial spirit on the campus and support the students for
+                      entrepreneurial success</small></li>
+                    <li><small>Connecting and maintain an intimate relationship with the external stakeholders</small></li>
+                    <li><small>Organizing a series of entrepreneurial sharing and webinar</small></li>
+                    <li><small>Creating interaction between university students and experienced businessmen
+                      through different activities: study trip, company visit, competition</small></li>
+                </ul>
+            </details>
+
+            <h5 class="w3-opacity"><b>Student Ambassador of PolyU </b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2020 to <span class="w3-tag w3-teal w3-round">Present</span></span> </h6>
+            <details>
+              <summary style="outline:none">Detail: </summary>
+              <ul>
+                <li><small>Propagandizing the reputation of PolyU through video filming, assisting in the Open
+                  day</small></li>
+                <li><small>Quickly recognizing the need and questions of guests and giving the solutions</small></li>
+                <li><small>Organizing campus visit for external guests, such as high school students</small></li>
+              </ul>
+            </details>
+
+            <h5 class="w3-opacity"><b>Vice President of Entrepreneurship society </b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sep 2019 to Aug 2020</span> </h6>
+            <details>
+              <summary style="outline:none">Detail: </summary>
+              <ul>
+                <li><small>Promoted and co-organized societies’ activities to attract followers and any
+                  interested people</small></li>
+                <li><small>Inspected the operation of those activities, ensuring its completeness</small></li>
+                <li><small>Invited successful entrepreneurs and regularly curated the sharing and talks to
+                  schoolmates</small></li>
+              </ul>
+            </details>
+
+            <h5 class="w3-opacity"><b>MMA (Management and Marketing Academy) Ambassador, PolyU</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sep 2019 to Aug 2020</span> </h6>
+            <details>
+              <summary style="outline:none">Detail: </summary>
+              <ul>
+                <li><small>Acted as the representative to promote our faculty and department in various public
+                  events, such as open day, and international business competition</small></li>
+                <li><small>Conducted student-sharing talks</small></li>
+              </ul>
+            </details>
+
+            <h5 class="w3-opacity"><b>WIE (Work-integrated education) Ambassador, PolyU </b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sep 2019 to Aug 2020</span> </h6>
+            <details>
+              <summary style="outline:none">Detail: </summary>
+              <ul>
+                <li><small>Popularized the concept of "Work-integrated Education" through promotion booth
+                  and sharing/talks</small></li>
+              </ul>
+            </details>
+
+            <h5 class="w3-opacity"><b>Entrepreneurial study trip to Nanjing </b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>1 to 4 Nov 2020 </h6>
+            
+
+            <h5 class="w3-opacity"><b>Voluntary Activity: 3D model buidling workshops </b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sep 2019 to Dec 2019 </h6>
+          </div>
+    </div>   
+    
+
+
+
+
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
+
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <a href="#" class="w3-button w3-light-green w3-padding-large w3-large w3-opacity w3-hover-opacity-off"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <p id ="SocialPlatform">Find me on social media.</p>
+  <a  style="padding-left:25px;" href = "https://www.instagram.com/lawrancetsoi_/" target="_blank"><i class="fa fa-instagram w3-hover-opacity" ></i> </a>
+  <a  style="padding-left:25px;" href = "www.linkedin.com/in/lawrancecai" target="_blank"> <i class="fa fa-linkedin w3-hover-opacity">  </i></a>
+  <p>updated on <i>22/02/2021</i></p>
+</footer>
+
+<!-- Java Script and creating the function -->
+<script>
+  var slideIndex = 0;
+  showSlides();                     
+  
+  function showSlides() {
+    var i;                           
+    var slides = document.getElementsByClassName("mySlides");     
+    //  the getElementsByClassName() method returns a collection of an element's child elements with the specified class name 
+    var dots = document.getElementsByClassName("dot")             // dots is an array
+    // loop thrice, 3 times 
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    slideIndex++;      // slideIndex = 1
+    if (slideIndex > slides.length) {slideIndex = 1}       // restrict the slideIndex only can be 1 
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");                       
+    }
+    slides[slideIndex-1].style.display = "block";                // 	Element is rendered as a block-level element
+    dots[slideIndex-1].className += " active";                      // string add 
+    setTimeout(showSlides, 4000);                               // Change image every 2 seconds
+  }
+</script>
+
+
+</body>
+</head>
+</html>
